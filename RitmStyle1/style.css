@@ -211,7 +211,8 @@ main {
     padding-left: 50px;
     background-position: 60px;
 }
-.div5 h2{
+
+.div5 h2 {
     width: 335px;
 }
 
@@ -240,30 +241,34 @@ main {
     padding-top: 460px;
     color: #ffffff;
 }
+
 .otzivs h1 {
     font-size: 45px;
     font-weight: 700;
     margin-bottom: 40px;
 
 }
-.alex{
+
+.alex {
     color: #ffffff;
     background-color: #018ABE;
     width: 500px;
     height: 276px;
     border-radius: 10px;
     position: absolute;
-    left: 190px;
+    left: 100px;
     top: 2025px;
 }
-.alex h2{
+
+.alex h2 {
     width: 410px;
     height: 22px;
     font-size: 16px;
     padding-top: 40px;
     padding-left: 45px;
 }
-.alex p{
+
+.alex p {
     width: 410px;
     height: 22px;
     font-size: 10px;
@@ -273,25 +278,27 @@ main {
 
 
 
-.kira{
+.kira {
     align-items: center;
     color: #ffffff;
     background-color: #018ABE;
     width: 636px;
     height: 350px;
     border-radius: 10px;
-    
+
     position: absolute;
-    left: 750px;
+    left: 640px;
 }
-.kira h2{
+
+.kira h2 {
     width: 516px;
     height: 28px;
     font-size: 20px;
     padding-top: 40px;
     padding-left: 45px;
 }
-.kira p{
+
+.kira p {
     width: 516px;
     height: 28px;
     font-size: 14px;
@@ -301,32 +308,334 @@ main {
 
 
 
-.yana{
+.yana {
     color: #ffffff;
     background-color: #018ABE;
     width: 500px;
     height: 276px;
     border-radius: 10px;
     position: absolute;
-    right: 170px;
+    right: 80px;
     top: 2025px;
 }
-.yana h2{
+
+.yana h2 {
     width: 410px;
     height: 22px;
     font-size: 16px;
     padding-top: 40px;
     padding-left: 45px;
 }
-.yana p{
+
+.yana p {
     width: 410px;
     height: 22px;
     font-size: 10px;
     padding-top: 52px;
     padding-left: 45px;
 }
-.otzivs img{
+
+.otzivs img {
     position: absolute;
-    left: 1000px;
+    left: 900px;
     top: 2400px;
+}
+
+
+.ob h1::before {
+    content: url(./img/Rectangle\ 6.svg);
+    margin-right: 66px;
+}
+
+.ob h1::after {
+    content: url(./img/Rectangle\ 6.svg);
+    display: inline-block;
+    transform: scale(-1, 1);
+    margin-left: 66px;
+}
+
+.ob h1 {
+    height: 600px;
+    background-size: cover;
+
+
+
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 600px;
+    color: #ffffff;
+}
+
+.ob h1 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 40px;
+
+}
+
+.mas {
+    color: #ffffff;
+    height: 34px;
+    position: absolute;
+    left: 400px;
+
+    padding-top: 166px;
+}
+
+.mas1 {
+    color: #ffffff;
+    width: 466px;
+    height: 170px;
+    position: absolute;
+    left: 400px;
+    padding-top: 220px;
+    font-size: 16px;
+}
+
+.img1 {
+    position: absolute;
+    left: 960px;
+}
+
+.img2 {
+    position: absolute;
+    left: 400px;
+    top: 3098px;
+    padding-top: 100px;
+}
+
+
+
+.gid {
+    color: #ffffff;
+    height: 34px;
+    position: absolute;
+    top: 3010px;
+    left: 935px;
+    padding-left: 80px;
+    padding-top: 200px;
+}
+
+.gid1 {
+    color: #ffffff;
+    width: 536px;
+    height: 302px;
+    position: absolute;
+    left: 935px;
+    top: 3010px;
+    padding-top: 255px;
+    font-size: 16px;
+    padding-left: 80px;
+}
+
+.gid2 {
+    color: #ffffff;
+    width: 556px;
+    height: 302px;
+    position: absolute;
+    left: 935px;
+    top: 3150px;
+    padding-top: 255px;
+    font-size: 16px;
+    padding-left: 80px;
+}
+
+.stoimost h1::before {
+    content: url(./img/Rectangle\ 6.svg);
+    margin-right: 45px;
+}
+
+.stoimost h1::after {
+    content: url(./img/Rectangle\ 6.svg);
+    display: inline-block;
+    transform: scale(-1, 1);
+    margin-left: 45px;
+}
+
+.stoimost h1 {
+    height: 600px;
+    background-size: cover;
+    font-size: 42px;
+
+
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 980px;
+    color: #ffffff;
+}
+
+.stoimost h1 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 40px;
+
+}
+
+.qwer {
+    position: absolute;
+    left: 400px;
+    padding-top: 203px;
+
+}
+
+.stoimost .kakoi1::before,
+.kakoi2::before,
+.kakoi3::before,
+.kakoi4::before,
+.kakoi5::before {
+    content: url(./img/Rectangle\ 6.svg);
+    margin-right: 20px;
+
+}
+
+.kakoi1,
+.kakoi2,
+.kakoi3,
+.kakoi4,
+.kakoi5 {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.cena1,
+.cena2,
+.cena3,
+.cena4,
+.cena5 {
+    position: absolute;
+    left: 370px;
+
+    color: #ffffff;
+    font-size: 18px;
+
+}
+
+.cena1 {
+    position: absolute;
+    top: 203px;
+
+}
+
+.cena2 {
+    position: absolute;
+    top: 279px;
+
+}
+
+.cena3 {
+    position: absolute;
+    top: 351px;
+
+}
+
+.cena4 {
+    position: absolute;
+    top: 424px;
+
+}
+
+.cena5 {
+    position: absolute;
+    top: 495px;
+}
+
+.kakoi1,
+.kakoi2,
+.kakoi3,
+.kakoi4 {
+    padding-bottom: 31px;
+}
+
+.stoimost img {
+    padding-top: 145px;
+    padding-left: 672px;
+}
+
+.stoimost h3 {
+    color: #ffffff;
+    font-size: 21px;
+    padding-left: 812px;
+    padding-top: 30px;
+}
+
+
+.parent1 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 48px;
+    grid-row-gap: 24px;
+    padding-top: 150px;
+}
+
+.div10 {
+    grid-area: 1 / 1 / 3 / 3;
+}
+
+.div20 {
+    grid-area: 1 / 3 / 2 / 4;
+    background-color: #018ABE;
+    color: #ffffff;
+    width: 392px;
+    height: 290px;
+    border-radius: 10px;
+    position: absolute;
+    left: 1208px;    
+}
+
+.div30 {
+    grid-area: 2 / 3 / 3 / 4;
+    background-color: #018ABE;
+    color: #ffffff;
+    width: 392px;
+    height: 290px;
+    border-radius: 10px;
+    
+    position: absolute;
+    left: 1208px;
+    top: 4817px;
+}
+.div20 h2{
+    padding-left: 45px;
+    padding-top: 35px;
+    font-size: 24px;
+}
+.div30 h2{
+    padding-left: 45px;
+    padding-top: 35px;
+    font-size: 24px;
+}
+.div20 p{
+    padding-left: 45px;
+    padding-top: 21px;
+    font-size: 14px;
+}
+.div30 p{
+    padding-left: 45px;
+    padding-top: 21px;
+    font-size: 14px;
+}
+.geo::before{
+    content: url(./img/Vector.svg);
+    margin-right: 23.25px;
+}
+.geo1::before{
+    content: url(./img/Vector\ \(1\).svg);
+    margin-right: 23.25px;
+}
+.geo2::before{
+    content: url(./img/Vector\ \(2\).svg);
+    margin-right: 23.25px;
+}
+.parent1 button {
+    background-color: #ffffff;
+    border-radius: 3px;
+    padding: 9px 15px;
+    border: none;
+    color: #018ABE;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 45px;
+    margin-top: 30px;
 }
